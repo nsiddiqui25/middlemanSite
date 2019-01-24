@@ -13,6 +13,10 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# layout specification
+page '/dirOne/*', layout: 'layout2'
+   # by default, now any file in this directory will use layout2.erb as its layout template
+
 # runs live-reload
 activate :livereload
 

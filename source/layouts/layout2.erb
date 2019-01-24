@@ -1,0 +1,33 @@
+<!-- <!doctype html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>
+      <%= current_page.data.title || "Middleman" %>
+   </title>
+</head>
+
+<body>
+   <header>Layout2 header</header>  
+   <hr>
+   <br>
+   <%= yield %>
+   <br>
+   <hr>
+   <footer>Layout2 footer</footer>  
+</body>
+
+</html> -->
+
+<!-- we can also nest layouts. In our case, here, we want to nest layout2.erb inside the default layout.erb -->
+
+<% wrap_layout :layout do %>
+   <header>Layout2 header</header>
+   <br>
+   <hr>
+   <%= yield %>
+   <br>
+   <hr>
+   <footer>Layout2 footer</footer>
+<% end %>
