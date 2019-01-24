@@ -20,7 +20,7 @@ Frontmatter in Middleman
       1) YAML - a langugae used to define key-pair values
          - simple to use and not as syntax-heavy
          - we can access the title of the current page we're on, as stated below
-         <%= current_page.data.title %>
+         `<%= current_page.data.title %>`
       2) JSON - JavaScript Object notation
       - both of these are interchangable
    - we can access these frontmatter variables on any page that has embedded Ruby, then we can use <%= %> tags and access the information on those embedded Ruby pages
