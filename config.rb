@@ -13,6 +13,12 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# runs live-reload
+activate :livereload
+
+# gets rid of .html extention when browsing to another page
+activate :directory_indexes
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
