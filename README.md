@@ -46,4 +46,4 @@
       - for example, if we want the same header on mutliple layouts, this is where partials come in useful
    - naming convention
       - _partial.erb
-      - the underscore in front of the file name is now middleman knows this is a partial
+      - the underscore in front of the file name is how middleman knows this is a partial
