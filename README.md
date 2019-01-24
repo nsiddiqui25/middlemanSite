@@ -11,7 +11,7 @@
    - the homepage for our entire website
    - erb stands for 'embedded ruby'
       - allows us to embed Ruby code inside our HTML and markdown files
-      - we can create files with erb extension, but won't be able to use Ruby code/logic in those files
+      - we can create files without .erb extension, but won't be able to use Ruby code/logic in those files
 
 ## Frontmatter in Middleman
    - information we can store about the content pages on our site, like title, layout, author, language it's written in, etc.
