@@ -14,11 +14,13 @@
 </head>
 
 <body>
-   <header>This is the header</header>
-   <br>
+   <!-- </%/= partial 'partials/header' /%/> -->
+   <%= partial(:'partials/header', :locals => { :title => 'My Title', :color => 'blue'}) %>
+   <!-- <header>This is the header</header>
+   <br> -->
    <%= yield %>
-   <br>
-   <footer>This is the footer</footer>
+   <!-- <br>
+   <footer>This is the footer</footer> -->
 </body>
 
 </html>

@@ -40,3 +40,10 @@
       - we can create new layouts to be used with other HTML files but they need to be specified in front-matter using YAML
    - instead of manually specifying which layout to use in front-matter, there's a more powerful/efficient way of doing it through `config.rb`, in one place where all layouts are specified
    - we can also nest templates
+
+## Partials in Middleman
+   - special erb/html files where common elements are stored
+      - for example, if we want the same header on mutliple layouts, this is where partials come in useful
+   - naming convention
+      - _partial.erb
+      - the underscore in front of the file name is now middleman knows this is a partial
