@@ -26,3 +26,7 @@
       - both of these are interchangable
    - we can access these frontmatter variables on any page that has embedded Ruby, then we can use <%= %> tags and access the information on those embedded Ruby pages
    - the best place to access them would be inside our templates/layouts 
+
+## Helper Methods in Middleman
+   - snippets of code you can add to your HTML/markdown file that simplify some common HTML tasks
+      - for example, in a md file we don't want to include any ugly/messy HTML; when writing an HTML file, we may not want to go through the trouble of creating links, forms, etc
